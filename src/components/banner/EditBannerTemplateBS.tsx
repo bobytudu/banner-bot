@@ -100,7 +100,7 @@ export default function EditBannerTemplateBS(props: EditBannerTemplateBSProps) {
           <div
             ref={divRef}
             id="img-container"
-            className="relative bg-red-500 min-h-[510px] text-center overflow-hidden"
+            className="relative min-h-[510px] text-center overflow-hidden"
           >
             <Image
               width={512}

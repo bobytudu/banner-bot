@@ -52,7 +52,7 @@ export default function BannerImageComp(props: BannerImageCompProps) {
           <div
             ref={divRef}
             id="img-container"
-            className="relative bg-red-500 min-h-[340px] text-center overflow-hidden"
+            className="relative min-h-[340px] text-center overflow-hidden"
           >
             <Image
               width={512}
